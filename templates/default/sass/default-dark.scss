@@ -1,0 +1,108 @@
+.resume-print.default-dark {
+
+  .circle-icon{
+    //background: #2e4486;
+    color: #889abb;
+  }
+
+  .header-bottom {
+
+  }
+
+  .resume-print-wrapper {
+    background: #060d1d !important;
+  }
+
+  .header-bottom {
+    background: #060d1d !important;
+  }
+
+  .header-contact {
+    background: #060c1d;
+  }
+
+
+  .header-info {
+    background: #2e4586;
+
+    h1 {
+      color: #889abb;
+    }
+
+    h2 {
+      color: #060c1d;
+    }
+  }
+
+
+  .experience-box {
+
+    .company-box {
+
+      h6 {
+        color: #3f4a54;
+      }
+
+      .company-summary {
+        color: #a7a4a4;
+
+        a {
+          color: #335fa7;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+  }
+
+  .skill-sliders label {
+    color: #a7a4a4;
+  }
+
+  .education-wrapper h6 {
+    color: #3f4a54;
+  }
+
+  .reference-wrapper {
+    h4, h6 {
+      color: #3f4a54;
+    }
+  }
+
+  .education-wrapper p, .reference-wrapper  p {
+    color: #a09d9d;
+    font-size: 1rem !important;
+  }
+
+  .education-wrapper h3 {
+    font-size: 1.1rem !important;
+    color: #961336;
+  }
+
+  .reference-wrapper {
+    h3 {
+      font-size: 1.1rem !important;
+      color: #961336;
+    }
+
+    h4 a {
+      color: #3f4a54;
+    }
+  }
+
+  .footer-buttons {
+    .btn-primary:active {
+      color: #8395c1 !important;
+      background-color: #05142a;
+    }
+
+    .btn-primary:visited {
+      color: #8395c1 !important;
+      background-color: #05142a;
+    }
+  }
+
+}

@@ -1,0 +1,23 @@
+{
+  "name": "odyssey-resume",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-wordpress": "^2.0.0",
+    "eslint-plugin-html": "^4.0.5",
+    "stylelint": "^9.5.0",
+    "stylelint-config-wordpress": "^13.1.0"
+  },
+  "scripts": {
+    "deploy": "sass templates/default/sass/default.scss; sass templates/default/sass/default-dark.scss; cp templates/default/sass/default-dark.css templates/default/assets/default-dark.css; cp templates/default/sass/default.css templates/default/assets/default.css",
+    "composer:install": "composer create-project wp-coding-standards/wpcs --no-dev",
+    "lint": "npm run lint:css && npm run lint:js && npm run lint:php",
+    "lint:css": "stylelint \"./**/*.{css,less}\"",
+    "lint:js": "eslint --ext .html,.js .",
+    "lint:js:fix": "eslint --fix --ext .html,.js .",
+    "lint:php": "php ./wpcs/vendor/squizlabs/php_codesniffer/bin/phpcs --extensions=php .",
+    "lint:php:fix": "php ./wpcs/vendor/squizlabs/php_codesniffer/bin/phpcbf --extensions=php .",
+    "test": "npm run lint"
+  }
+}

@@ -1,0 +1,67 @@
+.resume-print.default-dark .circle-icon {
+  color: #889abb;
+}
+.resume-print.default-dark .resume-print-wrapper {
+  background: #060d1d !important;
+}
+.resume-print.default-dark .header-bottom {
+  background: #060d1d !important;
+}
+.resume-print.default-dark .header-contact {
+  background: #060c1d;
+}
+.resume-print.default-dark .header-info {
+  background: #2e4586;
+}
+.resume-print.default-dark .header-info h1 {
+  color: #889abb;
+}
+.resume-print.default-dark .header-info h2 {
+  color: #060c1d;
+}
+.resume-print.default-dark .experience-box .company-box h6 {
+  color: #3f4a54;
+}
+.resume-print.default-dark .experience-box .company-box .company-summary {
+  color: #a7a4a4;
+}
+.resume-print.default-dark .experience-box .company-box .company-summary a {
+  color: #335fa7;
+}
+.resume-print.default-dark .experience-box .company-box .company-summary a:hover {
+  text-decoration: none;
+}
+.resume-print.default-dark .skill-sliders label {
+  color: #a7a4a4;
+}
+.resume-print.default-dark .education-wrapper h6 {
+  color: #3f4a54;
+}
+.resume-print.default-dark .reference-wrapper h4, .resume-print.default-dark .reference-wrapper h6 {
+  color: #3f4a54;
+}
+.resume-print.default-dark .education-wrapper p, .resume-print.default-dark .reference-wrapper p {
+  color: #a09d9d;
+  font-size: 1rem !important;
+}
+.resume-print.default-dark .education-wrapper h3 {
+  font-size: 1.1rem !important;
+  color: #961336;
+}
+.resume-print.default-dark .reference-wrapper h3 {
+  font-size: 1.1rem !important;
+  color: #961336;
+}
+.resume-print.default-dark .reference-wrapper h4 a {
+  color: #3f4a54;
+}
+.resume-print.default-dark .footer-buttons .btn-primary:active {
+  color: #8395c1 !important;
+  background-color: #05142a;
+}
+.resume-print.default-dark .footer-buttons .btn-primary:visited {
+  color: #8395c1 !important;
+  background-color: #05142a;
+}
+
+/*# sourceMappingURL=default-dark.css.map */
