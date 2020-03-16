@@ -30,7 +30,7 @@ if (!function_exists('odd_resume_google_map_key')) {
   function odd_resume_google_map_key($api)
   {
 
-    $api['key'] = 'AIzaSyDBzTE2nyoo8h7kh_jbxTPujoKHtldq9_U';
+    $api['key'] = 'xxx';
     return $api;
 
   }

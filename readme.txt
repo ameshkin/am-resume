@@ -44,6 +44,9 @@ You must have the following plugins or files available.  We will add gravity for
 * ACF with Google Maps
 https://www.advancedcustomfields.com/
 
+You will need to enter your own google maps api key in this file.
+`am-resume/functions.php`
+
 * Font Awesome
 This plugin assumes you have font awesome. The icons will not show up without Font Awesome but you can easily create your own template and use your own icons.
 
